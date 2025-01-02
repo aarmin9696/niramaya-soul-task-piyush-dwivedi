@@ -2,7 +2,7 @@
 
 This task tracker web application serves as a simple yet effective project that combines React.js, Redux for state management, Bootstrap for responsive design, and simulated backend API calls to create a real-world-like task management system. The key challenges included managing the state of tasks efficiently, simulating a backend API, and ensuring data persistence. These challenges were addressed using state management solutions like Redux, Axios for API calls, and localStorage for persistence. The app also ensures a smooth and responsive experience for users across all devices.
 
-## Deployed Link - 
+## Deployed Link - https://piyush-dwivedi-task-tracker.netlify.app/
 
 ## Prerequisites
 

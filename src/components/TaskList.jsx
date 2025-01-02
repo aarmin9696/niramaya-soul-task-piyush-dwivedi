@@ -37,7 +37,15 @@ const TaskList = ({ filterStatus }) => {
     return true;
   });
 
-  if (loading) return <p className="text-center">Loading tasks...</p>;
+  if (loading) {
+    return (
+      <div className="text-center">
+        <div className="spinner-border text-success" role="status">
+          <span className="visually-hidden">Loading...</span>
+        </div>
+      </div>
+    );
+  }
   if (error) return <p className="text-center text-danger">{error}</p>;
 
 
